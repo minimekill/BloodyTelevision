@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from operator import itemgetter
 from collections import Counter
-# getter.download("https://github.com/mathiasjepsen/PythonDatasetAssignment/raw/master/ks-projects-201801.csv")
+getter.download("https://github.com/mathiasjepsen/PythonDatasetAssignment/raw/master/ks-projects-201801.csv")
 filename = "ks-projects-201801.csv"
 data = ps.read_csv(filename)
 matrix = data.as_matrix()
@@ -193,8 +193,8 @@ def question_5():
 
 
 if __name__ == '__main__':
-    #question_1()
-    #question_2()
-    #question_3()
-    #question_4()
+    question_1()
+    question_2()
+    question_3()
+    question_4()
     question_5()
